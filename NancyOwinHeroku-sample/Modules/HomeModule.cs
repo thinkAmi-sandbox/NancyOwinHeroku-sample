@@ -12,8 +12,8 @@ namespace NancyOwinHeroku_sample.Modules
             {
                 var ringo = new[]
                 {
-                    new { Id = 1, Name = "トキ"},
-                    new { Id = 2, Name = "秋映"}
+                    new { Id = 1, ItemName = "トキ"},
+                    new { Id = 2, ItemName = "秋映"}
                 };
 
                 return Response.AsJson(ringo);
